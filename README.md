@@ -1,46 +1,25 @@
-# Getting Started with Create React App
+# Password Reset Screen POC
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+This project is a proof-of-concept (POC) implementation of a basic password reset screen. The goal of the project is to allow users to enter a new password and validate it based on specific constraints. The POC provides a simple interface for users to reset their passwords securely.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Password Validation**: Users can enter a string as their new password, and the system will validate it based on specific rules.
+- **Password Constraints**: The password must meet one of two sets of constraints:
+  - At least 8 characters, including one number and two special characters.
+  - Alternatively, the password can be greater than 15 characters with no restrictions.
+- **Reset Button Enablement**: The "Reset" button is enabled or disabled dynamically based on the password's validity. If the new password meets the specified constraints, the "Reset" button becomes active, allowing users to proceed with the password change.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **ReactJS**: The project is built using the React JavaScript library, providing a dynamic user interface and efficient component-based development.
+- **TypeScript**: TypeScript is used to add static typing to JavaScript, enhancing code maintainability and reducing errors.
+- **ES6**: ES6 features are utilized to write modern JavaScript code for improved readability and maintainability.
+- **ESLint**: ESLint is used for static code analysis to enforce consistent code style and identify potential issues.
+- **Prettier**: Prettier is used for code formatting to ensure a consistent and neat codebase.
+- **Husky**: Husky is used to set up Git hooks, enabling automated pre-commit and pre-push checks for code quality.
+- **Jest**: Jest is used as the testing framework to write unit tests and ensure code correctness.

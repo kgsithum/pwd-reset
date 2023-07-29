@@ -1,8 +1,9 @@
 import React from 'react';
 import styles from './Message.module.css';
+import { MessageType } from '../types/MessageType';
 
 interface MessageProps {
-  type: 'success' | 'error';
+  type: MessageType;
   text: string;
 }
 

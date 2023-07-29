@@ -23,3 +23,7 @@ This project is a proof-of-concept (POC) implementation of a basic password rese
 - **Prettier**: Prettier is used for code formatting to ensure a consistent and neat codebase.
 - **Husky**: Husky is used to set up Git hooks, enabling automated pre-commit and pre-push checks for code quality.
 - **Jest**: Jest is used as the testing framework to write unit tests and ensure code correctness.
+
+## Notes
+
+This POC is designed to demonstrate the functionality of a basic password reset screen and the real-time password validation. For a production-ready implementation, additional features such as backend integration for password storage and user authentication would be necessary.

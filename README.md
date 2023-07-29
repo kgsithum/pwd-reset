@@ -24,6 +24,51 @@ This project is a proof-of-concept (POC) implementation of a basic password rese
 - **Husky**: Husky is used to set up Git hooks, enabling automated pre-commit and pre-push checks for code quality.
 - **Jest**: Jest is used as the testing framework to write unit tests and ensure code correctness.
 
+## Installation
+
+Developed using: `React 18.2.0, Node v18.16.0` and `npm 9.5.1`.
+
+To install the project,
+
+Clone the repository and run,
+
+```sh
+cd
+pwd-reset
+npm install
+```
+
+Run
+
+```sh
+npm start
+```
+
+Test Eslint
+
+```
+npm run lint
+```
+
+Test
+
+```sh
+npm run test
+```
+
+## Instructions
+
+- Open the url in the browser after runing the `npm start`.
+- `http://localhost:3000`
+- The password reset screen will be displayed in the bowser.
+- There is a demo file ( `PasswordResetApp.mp4` ) available in the `public/demo` directory.
+
+## Demo
+
+![example usage](public/demo/PasswordResetApp.mp4)
+
 ## Notes
 
 This POC is designed to demonstrate the functionality of a basic password reset screen and the real-time password validation. For a production-ready implementation, additional features such as backend integration for password storage and user authentication would be necessary.
+
+
